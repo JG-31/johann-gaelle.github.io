@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message au mariés</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Laissez un messages au mariés</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html#hero">Accueil</a></li>
+            <li><a href="index.html#program">Programme</a></li>
+            <li><a href="index.html#location">Lieu</a></li>
+            <li><a href="form.html">Message</a></li>
+        </ul>
+    </nav>
+    
+    <section id="rsvp">
+        <form action="https://formspree.io/f/xrbzbaln" method="POST">
+            <h1>Laissez un petit message au futurs mariés, vous pouvez leur dire dire:</h1>
+            <h2>-Ce que vous pensez d'eux</h2>
+            <h2>-Ce que vous pensez de leur mariage</h2>
+            <h2>-Autre chose qui vous passe par la tête!</h2>
+            <h2>N'oubliez pas de mettre une petite touche d'humour à votre message ;)</h2>
+            <h2>Les mariés verront tous vos messages le jour du mariage!</h2>
+            <h2>nous afficherons d'abord le message laissé et devront essayer de deviner qui l'a ecrit, faites attention a ne pas mettre votre prenom ou nom dans le message :)</p>
+            <h2>signé: Elouan, le developpeur du site.</h2>
+            <label for="name"><h2>Prénom:</h2></label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="message"><h2>Message:</h2></label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gaëlle & Johann-Site developpé par Elouan</p>
+    </footer>
+</body>
+</html>
